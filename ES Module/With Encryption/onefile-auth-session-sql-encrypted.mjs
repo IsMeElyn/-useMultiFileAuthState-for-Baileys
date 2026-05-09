@@ -1,6 +1,6 @@
 /**
  * Based on:
- * https://github.com/IsMeElyn/-useMultiFileAuthState-for-Baileys
+ * https://github.com/IsMeElyn/useMultiFileAuthState-for-Baileys
  *
  * This file has been modified and adapted.
  * Original work is licensed under MIT License.
