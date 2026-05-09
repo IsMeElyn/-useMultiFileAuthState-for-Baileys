@@ -17,9 +17,7 @@ const { createRequire } = require('node:module');
 
 const requireResolve = createRequire(__filename);
 
-// WARNING: Move this secret to .env in production.
-// If this value changes, the existing encrypted session data will no longer be readable.
-const AUTH_SECRET = process.env.AUTH_SECRET || 'ganti_password_ini_sekarang';
+const AUTH_SECRET = process.env.AUTH_SECRET || 'change_this_password_now'; // WARNING: Fallback secret is hardcoded and insecure. Always set AUTH_SECRET via environment variables (.env) in production to prevent credential leakage and unauthorized decryption.
 
 const BufferJSON = {
   replacer: (_, value) => {
