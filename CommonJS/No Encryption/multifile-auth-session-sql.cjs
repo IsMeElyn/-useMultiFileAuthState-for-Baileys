@@ -1,3 +1,11 @@
+/**
+ * Based on:
+ * https://github.com/IsMeElyn/-useMultiFileAuthState-for-Baileys
+ *
+ * This file has been modified and adapted.
+ * Original work is licensed under MIT License.
+ */
+
 const fs = require('node:fs');
 const fsp = require('node:fs/promises');
 const path = require('node:path');
