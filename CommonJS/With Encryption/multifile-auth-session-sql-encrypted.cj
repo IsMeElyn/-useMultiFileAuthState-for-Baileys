@@ -28,7 +28,7 @@ const BufferJSON = {
   },
 };
 
-const AUTH_SECRET = process.env.AUTH_SECRET || 'ganti_password_ini_sekarang'; // WARNING: Fallback secret is hardcoded and insecure. Always set AUTH_SECRET via environment variables (.env) in production to prevent credential leakage and unauthorized decryption.
+const AUTH_SECRET = process.env.AUTH_SECRET || 'change_this_password_now'; // WARNING: Fallback secret is hardcoded and insecure. Always set AUTH_SECRET via environment variables (.env) in production to prevent credential leakage and unauthorized decryption.
 
 function safeName(input) {
   return encodeURIComponent(String(input)).replace(/%/g, '_');
